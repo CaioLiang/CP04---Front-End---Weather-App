@@ -17,6 +17,13 @@ export default function Login() {
   };
 
   const handleClick = () => {
+
+    const params = {
+      login: login,
+      password: password
+    } // API - JSON
+    console.log(params)
+
     console.log(login, password);
   };
 
